@@ -1,3 +1,8 @@
+/**
+ * @author Ihor Tryndey 3105023
+ * @version 1.0
+ * @since 2024
+ */
 package griffith;
 
 public interface ConversionsInterface {
