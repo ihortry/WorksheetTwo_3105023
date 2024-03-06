@@ -24,8 +24,7 @@ public class Conversions implements ConversionsInterface{
 
 	@Override
 	public String upperCaseToLowerCase(String uStr) {
-		// TODO Auto-generated method stub
-		return null;
+		return uStr.toLowerCase();
 	}
 
 	@Override
