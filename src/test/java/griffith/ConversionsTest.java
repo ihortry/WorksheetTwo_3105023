@@ -37,4 +37,11 @@ public class ConversionsTest {
 		assertEquals(33, obj.kilometerToMiles(53.097), alpha);
 		assertEquals(55.9353, obj.kilometerToMiles(90), alpha);
 	}
+	
+	@Test
+	public void upperCaseToLowerCaseTest() {
+		assertEquals("ihor", obj.upperCaseToLowerCase("IHOR"));
+		assertEquals("tryndey", obj.upperCaseToLowerCase("trYNdEy") );
+		assertEquals("artem", obj.upperCaseToLowerCase("Artem"));
+	}
 }
