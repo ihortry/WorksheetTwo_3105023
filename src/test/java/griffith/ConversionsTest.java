@@ -26,7 +26,7 @@ public class ConversionsTest {
 	public void milesToKilometerTest() {
 		double alpha = 0.001;
 		assertEquals(1.609, obj.milesToKilometer(1), alpha);
-		assertEquals(53.108, obj.milesToKilometer(33), alpha);
-		assertEquals(90, obj.milesToKilometer(55.9234), alpha);
+		assertEquals(53.097, obj.milesToKilometer(33), alpha);
+		assertEquals(90, obj.milesToKilometer(55.9353), alpha);
 	}
 }

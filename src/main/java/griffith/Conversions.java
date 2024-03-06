@@ -14,8 +14,7 @@ public class Conversions implements ConversionsInterface{
 
 	@Override
 	public double milesToKilometer(double miles) {
-		// TODO Auto-generated method stub
-		return 0;
+		return miles*1.609;
 	}
 
 	@Override
