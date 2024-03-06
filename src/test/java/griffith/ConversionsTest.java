@@ -44,4 +44,11 @@ public class ConversionsTest {
 		assertEquals("tryndey", obj.upperCaseToLowerCase("trYNdEy") );
 		assertEquals("artem", obj.upperCaseToLowerCase("Artem"));
 	}
+	
+	@Test 
+	public void lowerCaseToUpperCaseTest() {
+		assertEquals("IHOR", obj.lowerCaseToUpperCase("ihor"));
+		assertEquals("TRYNDEY",obj.lowerCaseToUpperCase("tRyndey"));
+		assertEquals("ARTEM", obj.lowerCaseToUpperCase("ARTEM"));
+	}
 }
