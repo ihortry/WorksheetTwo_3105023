@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ConversionsTest {
 	Conversions obj = new Conversions();
 	@Test
-	public void celsiusTofahrenheitTest() {
+	public void celsiusToFahrenheitTest() {
 		double alpha = 0.01;
 		assertEquals(32, obj.celsiusToFahrenheit(0), alpha);
 		assertEquals(212, obj.celsiusToFahrenheit(100), alpha);
