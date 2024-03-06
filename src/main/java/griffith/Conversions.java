@@ -29,8 +29,7 @@ public class Conversions implements ConversionsInterface{
 
 	@Override
 	public String lowerCaseToUpperCase(String lStr) {
-		// TODO Auto-generated method stub
-		return null;
+		return lStr.toUpperCase();
 	}
 
 }
