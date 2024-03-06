@@ -29,4 +29,12 @@ public class ConversionsTest {
 		assertEquals(53.097, obj.milesToKilometer(33), alpha);
 		assertEquals(90, obj.milesToKilometer(55.9353), alpha);
 	}
+	
+	@Test
+	public void kilometerToMilesTest() {
+		double alpha = 0.001;
+		assertEquals(1, obj.kilometerToMiles(1.609), alpha);
+		assertEquals(33, obj.kilometerToMiles(53.097), alpha);
+		assertEquals(55.9353, obj.kilometerToMiles(90), alpha);
+	}
 }
