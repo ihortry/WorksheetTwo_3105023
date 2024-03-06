@@ -4,7 +4,6 @@ public class Conversions implements ConversionsInterface{
 
 	@Override
 	public double celsiusToFahrenheit(double celsius) {
-		// TODO Auto-generated method stub
 		return (celsius*1.8)+32;
 	}
 

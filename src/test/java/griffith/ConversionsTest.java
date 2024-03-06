@@ -14,4 +14,11 @@ public class ConversionsTest {
 		assertEquals(-25.6, obj.celsiusToFahrenheit(-32), alpha);
 	}
 
+	@Test
+	public void fahrenheitToCelsiusTest() {
+		double alpha = 0.01;
+		assertEquals(-67.22, obj.fahrenheitToCelsius(-88.996), alpha);
+		assertEquals(0, obj.fahrenheitToCelsius(32), alpha);
+		assertEquals(100, obj.fahrenheitToCelsius(212), alpha);
+	}
 }
